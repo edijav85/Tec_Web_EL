@@ -10,26 +10,16 @@
 
 #INDICE DE CONTENIDOS
 -------------------------------------------
-*Node.js Página
-
-*Github Página
-
-*Brackets.io Página
-
-*W3Schools Página
-
-*Métodos HTTP Página
-
-*Status Code HTTP Página
-
-*Navegador Página
-
-*World Wide Web Página
-
-*World Wide Web Consortium Página
-
-*DOCTYPE Página
-
-*CSS Página
+* Node.js Página
+* Github Página
+* Brackets.io Página
+* W3Schools Página
+* Métodos HTTP Página
+* Status Code HTTP Página
+* Navegador Página
+* World Wide Web Página
+* World Wide Web Consortium Página
+* DOCTYPE Página
+* CSS Página
 
 
