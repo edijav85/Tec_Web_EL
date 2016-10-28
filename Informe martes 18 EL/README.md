@@ -1,6 +1,5 @@
 #LABORATORIO DE TECNOLOGÍAS WEB CON JAVASCRIPT
 -------------------------------------------
-
 ###Materia: Tecnologias Web con Java Script
 ###Tema: Introduccion a la Web
 ###Fecha: 27/10/2016
@@ -23,5 +22,7 @@
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
-
+<a name="tema"></a>
+## Tema
+El tema de la práctica es: Introduccion a la Web
 
