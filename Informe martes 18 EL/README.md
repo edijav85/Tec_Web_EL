@@ -23,16 +23,5 @@
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
-* Node.js 
-* Github 
-* Brackets.io 
-* W3Schools 
-* Métodos HTTP 
-* Status Code HTTP 
-* Navegador 
-* World Wide Web 
-* World Wide Web Consortium 
-* DOCTYPE 
-* CSS 
 
 
