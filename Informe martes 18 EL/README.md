@@ -26,3 +26,9 @@
 ## Tema
 El tema de la práctica es: Introduccion a la Web
 
+<a name="objetivos"></a>
+## Objetivos
+
+- Entender el funcionamiento y utilizacion de herramientas de tipo web para su posterior uso.
+- Practicar el estructura que tiene el lenguaje de Markdown para su uso en la elaboracion de informes.
+- Aprender el uso de lenguaje HTML CSS
