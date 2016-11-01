@@ -32,3 +32,11 @@ El tema de la práctica es: Introduccion a la Web
 - Entender el funcionamiento y utilizacion de herramientas de tipo web para su posterior uso.
 - Practicar el estructura que tiene el lenguaje de Markdown para su uso en la elaboracion de informes.
 - Aprender el uso de lenguaje HTML CSS
+- Observar las facilidades y dificultades que posee el manejo de instancias npm
+
+<a name="marco-teorico"></a>
+## Marco Teorico
+
+<a href="#node">Node.js </a>
+### Node.js 
+Es un intérprete JavaScript del lado del servidor, su principal objetivo es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola máquina física.
