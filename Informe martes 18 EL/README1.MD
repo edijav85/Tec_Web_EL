@@ -37,10 +37,10 @@ El tema de la práctica es: Introduccion a la Web
 <a name="marco-teorico"></a>
 ## Marco Teorico
 
-###<a href="#node">Node.js </a>
+###<a name="#node">Node.js </a>
 
 Es un intérprete JavaScript del lado del servidor, su principal objetivo es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola máquina física.
 
-###<a href="#github">Github</a>
+###<a name="#github">Github</a>
 
 Es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago
