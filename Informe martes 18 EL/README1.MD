@@ -14,13 +14,12 @@
 - <a href="#marco-teorico">Marco Teorico</a>
  * <a href="#node">Node.js </a>
  * <a href="#github">Github</a>
-   +<a href="#brakets">Brackets.io</a>
-   +<a href="#w3c">W3Schools</a>
-   +<a href="#metodos">Métodos HTTP</a>
-   +<a href="#status">Status Code HTTP</a>
-   +<a href="#navegador">Navegador</a>
-   
-- <a href="#desarrollo">Desarrollo de la Práctica</a>
+ * <a href="#brakets">Brackets.io</a>
+ * <a href="#w3c">W3Schools</a>
+ * <a href="#metodos">Métodos HTTP</a>
+ * <a href="#status">Status Code HTTP</a>
+ * <a href="#navegador">Navegador</a>
+-<a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
