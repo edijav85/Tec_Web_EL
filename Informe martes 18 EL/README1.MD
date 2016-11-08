@@ -19,7 +19,7 @@
  * <a href="#metodos">Métodos HTTP</a>
  * <a href="#status">Status Code HTTP</a>
  * <a href="#navegador">Navegador</a>
--<a href="#desarrollo">Desarrollo de la Práctica</a>
+- <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
@@ -53,7 +53,7 @@ Es un editor de código abierto para el diseño y desarrollo web construido sobr
 
 Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
 
-
+##- <a name="#desarrollo">Desarrollo de la Práctica</a>
 
 
 
