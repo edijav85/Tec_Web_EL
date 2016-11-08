@@ -12,8 +12,8 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-   +<a href="#node">Node.js </a>
-   +<a href="#github">Github</a>
+   ..+<a href="#node">Node.js </a>
+   ..+<a href="#github">Github</a>
    +<a href="#brakets">Brackets.io</a>
    +<a href="#w3c">W3Schools</a>
    +<a href="#metodos">Métodos HTTP</a>
