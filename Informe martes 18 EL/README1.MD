@@ -53,8 +53,8 @@ Es un editor de código abierto para el diseño y desarrollo web construido sobr
 
 Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
 
-##- <a name="#desarrollo">Desarrollo de la Práctica</a>
-
+<a name="#desarrollo"></a>
+##Desarrollo de la Práctica
 
 
 
