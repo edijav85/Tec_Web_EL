@@ -44,3 +44,23 @@ Es un intérprete JavaScript del lado del servidor, su principal objetivo es per
 ###<a name="#github">Github</a>
 
 Es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago
+
+###<a name="#brakets">Brackets.io</a>
+
+Es un editor de código abierto para el diseño y desarrollo web construido sobre tecnologías como HTML, CSS y JavaScript. El proyecto fue creado y es mantenido por Adobe , y se distribuye bajo una licencia MIT.
+
+###<a name="#w3c">W3Schools</a>
+
+Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
+
+
+
+
+
+
+
+
+
+
+
+
