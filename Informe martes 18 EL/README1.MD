@@ -31,8 +31,8 @@ El tema de la práctica es: Introduccion a la Web
 
 - Entender el funcionamiento y utilizacion de herramientas de tipo web para su posterior uso.
 - Practicar el estructura que tiene el lenguaje de Markdown para su uso en la elaboracion de informes.
-- Aprender el uso de lenguaje HTML CSS
-- Observar las facilidades y dificultades que posee el manejo de instancias npm
+- Aprender el uso de lenguaje HTML 
+- Observar las facilidades y dificultades que posee el manejo de instancias
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
@@ -51,6 +51,21 @@ Es un editor de código abierto para el diseño y desarrollo web construido sobr
 Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
 
 ##<a name="#desarrollo">Desarrollo de la Práctica</a>
+
+1. La practica empieza levantando el servidor web el cual consumira recursos de la computadora en donde estamos ejecutando el codigo en el programa BRAKETS, para esto es necesario ejecutar los siguientes comandos
+* npm install -g http-server
+** Este comando sirve para instalar el servidor web
+* http-server -c10 
+** Sirve para configurar la duración del Cache
+
+
+
+
+
+
+
+
+
 
 ### Imagenes desde Github **IMPORTANTE**
 
