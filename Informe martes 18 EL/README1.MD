@@ -53,10 +53,11 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
 ##<a name="#desarrollo">Desarrollo de la Práctica</a>
 
 1. La practica empieza levantando el servidor web el cual consumira recursos de la computadora en donde estamos ejecutando el codigo en el programa BRAKETS, para esto es necesario ejecutar los siguientes comandos
-* npm install -g http-server
-** Este comando sirve para instalar el servidor web
-* http-server -c10 
+..* npm install -g http-server
+Este comando sirve para instalar el servidor web
+..* http-server -c10 
 ** Sirve para configurar la duración del Cache
+
 
 
 
