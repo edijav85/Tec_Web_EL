@@ -59,7 +59,16 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
 
 
 2. Seguido a esto se procede con la creaccion de algunos progrogramas que nos permiten el manejo de marcas para asociarse con javascript. Aqui se procede con la instalacion de la mayoria de paquetes que nos permiten tener un conocimiento basico para la programacion en JavaScript.
- - El primer programa que se instala es Node.js, el cual permite que el codigo ingresado en el programa "Brakets" compile dentro del navegador  
+ 
+ - El primer programa que se instala es Node.js, el cual permite que el codigo ingresado en el programa "Brakets" compile dentro del navegador.
+ 
+ 
+ - El segundo programa es el escritorio de gidhub en el cual nos permite realizar commits de los codigos realizados en el programa brakets.
+ 
+ - 
+ 
+ 3. Para el siguiente paso trataremos de realizar algunas instrucciones para conocer el lenguaje HTML el cual nos permite, a travez, de un archivo que se le denomina "INDEX", ver la estructura que tiene una pagina html.
+ 
 
 
 
