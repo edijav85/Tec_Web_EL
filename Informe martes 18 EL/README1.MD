@@ -59,6 +59,10 @@ Este comando sirve para instalar el servidor web
 Sirve para configurar la duración del Cache
 
 
+2. Seguido a esto se procede con la creaccion de algunos progrogramas que nos permiten el manejo de marcas para asociarse con javascript
+
+
+
 
 
 
