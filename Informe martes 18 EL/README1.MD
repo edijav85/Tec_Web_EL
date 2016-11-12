@@ -58,7 +58,8 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
  - http-server -c10.- Sirve para configurar la duración del Cache
 
 
-2. Seguido a esto se procede con la creaccion de algunos progrogramas que nos permiten el manejo de marcas para asociarse con javascript
+2. Seguido a esto se procede con la creaccion de algunos progrogramas que nos permiten el manejo de marcas para asociarse con javascript. Aqui se procede con la instalacion de la mayoria de paquetes que nos permiten tener un conocimiento basico para la programacion en JavaScript.
+ - El primer programa que se instala es Node.js, el cual permite que el codigo ingresado en el programa "Brakets" compile dentro del navegador  
 
 
 
