@@ -41,16 +41,16 @@ El tema de la práctica es: Introduccion a la Web
 
 Es un intérprete JavaScript del lado del servidor, su principal objetivo es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola máquina física.
 
-###<a name="#github">Github</a>
+###<a name="github">Github</a>
 Es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago.
 
-###<a name="#brak">Brackets</a>
+###<a name="brak">Brackets</a>
 Es un editor de código abierto para el diseño y desarrollo web construido sobre tecnologías como HTML, CSS y JavaScript. El proyecto fue creado y es mantenido por Adobe , y se distribuye bajo una licencia MIT.
 
-###<a name="#w3c">W3Schools</a>
+###<a name="w3c">W3Schools</a>
 Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
 
-##<a name="#desarrollo">Desarrollo de la Práctica</a>
+##<a name="desarrollo">Desarrollo de la Práctica</a>
 
 1. La practica empieza levantando el servidor web el cual consumira recursos de la computadora en donde estamos ejecutando el codigo en el programa BRAKETS, para esto es necesario ejecutar los siguientes comandos
 * npm install -g http-server
