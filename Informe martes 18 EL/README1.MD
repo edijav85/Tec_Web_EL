@@ -55,9 +55,8 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
 1. La practica empieza levantando el servidor web el cual consumira recursos de la computadora en donde estamos ejecutando el codigo en el programa BRAKETS, para esto es necesario ejecutar los siguientes comandos
  - npm install -g http-server
    * Este comando sirve para instalar el servidor web
- - http-server -c10.- 
+ - http-server -c10 
    * Sirve para configurar la duración del Cache
-
 
 2. Seguido a esto se procede con la creaccion de algunos progrogramas que nos permiten el manejo de marcas para asociarse con javascript. Aqui se procede con la instalacion de la mayoria de paquetes que nos permiten tener un conocimiento basico para la programacion en JavaScript.
  
