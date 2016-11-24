@@ -40,7 +40,7 @@ El tema de la práctica es: Introduccion a la Web
 ###<a name="node">Node.js</a>
 
 <figure data-tpx="right">
-    <img src="https://code-maven.com/img/node.png" alt="Imagen" width="100
+    <img src="https://code-maven.com/img/node.png" alt="Imagen" width="100>
     <figcaption class="tpx">Descripción de la imagen</figcaption>
 </figure>
 
