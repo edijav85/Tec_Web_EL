@@ -39,7 +39,8 @@ El tema de la práctica es: Introduccion a la Web
 
 ###<a name="node">Node.js</a>
 
-![alt text](https://code-maven.com/img/node.png)
+<img src="https://code-maven.com/img/node.png" alt="text">
+
 
 Es un intérprete JavaScript del lado del servidor, su principal objetivo es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola máquina física.
 
