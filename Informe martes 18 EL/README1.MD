@@ -39,7 +39,7 @@ El tema de la práctica es: Introduccion a la Web
 
 ###<a name="node">Node.js</a>
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://code-maven.com/img/node.png)
 
 Es un intérprete JavaScript del lado del servidor, su principal objetivo es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola máquina física.
 
