@@ -38,7 +38,6 @@ El tema de la práctica es: Introduccion a la Web
 ## Marco Teorico
 
 ###<a name="node">Node.js</a>
-
 <figure data-tpx="center">
     <img src="https://code-maven.com/img/node.png" alt="Imagen" width="100">
 </figure>
