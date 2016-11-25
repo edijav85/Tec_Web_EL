@@ -46,6 +46,7 @@ Es un intérprete JavaScript del lado del servidor, su principal objetivo es per
 Es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago.
 
 ###<a name="brak">Brackets</a>
+<div align="center"><img src="http://jvalenzuela.es/wp-content/uploads/2014/08/brackets-editor-logo.jpg" width="100"></div>
 Es un editor de código abierto para el diseño y desarrollo web construido sobre tecnologías como HTML, CSS y JavaScript. El proyecto fue creado y es mantenido por Adobe , y se distribuye bajo una licencia MIT.
 
 ###<a name="w3c">W3Schools</a>
