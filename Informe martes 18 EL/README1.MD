@@ -50,7 +50,7 @@ Es una plataforma de desarrollo colaborativo de software para alojar proyectos u
 Es un editor de código abierto para el diseño y desarrollo web construido sobre tecnologías como HTML, CSS y JavaScript. El proyecto fue creado y es mantenido por Adobe , y se distribuye bajo una licencia MIT.
 
 ###<a name="w3c">W3Schools</a>
-<div align="center"><img src="http://orig07.deviantart.net/3d83/f/2014/280/d/b/w3c_schools_of_web_designing_by_theosoftcochin-d81y1nd.png"></div>
+<div align="center"><img src="http://orig07.deviantart.net/3d83/f/2014/280/d/b/w3c_schools_of_web_designing_by_theosoftcochin-d81y1nd.png" width="100"></div>
 Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
 
 ##<a name="desarrollo">Desarrollo de la Práctica</a>
