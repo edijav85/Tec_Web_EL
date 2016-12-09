@@ -66,10 +66,27 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
  - El primer programa que se instala es Node.js, el cual permite que el codigo ingresado en el programa "Brakets" compile dentro del navegador.
  
  
- - El segundo programa es el escritorio de gidhub en el cual nos permite realizar commits de los codigos realizados en el programa brakets.
+ - El segundo programa es el escritorio de github en el cual nos permite realizar commits de los codigos realizados en el programa brakets.
  
 
-3. Para el siguiente paso trataremos de realizar algunas instrucciones para conocer el lenguaje HTML el cual nos permite, a travez, de un archivo que se le denomina "INDEX", ver la estructura que tiene una pagina html.
+3. Para utilizar una pagina HTML, hay que tener en cuenta que la misma debe cumplir con una estructura que es la siguiente:
+<p align="center">
+
+<img src="C:\Users\EDISON\Documents\GitHub\Tec_Web_EL\Informe martes 18 EL" width="500" height="800">
+
+
+</p>
+
+<p align="center">
+
+<img src="https://github.com/edijav85/Tec_Web_EL/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
+
+</p>
+
+
+
+4. Para el siguiente paso trataremos de realizar algunos metodos para conocer el lenguaje HTML el cual nos permite, a travez, de un archivo que se le denomina "INDEX", ver la estructura que tiene una pagina html.
+
  
 
 
