@@ -70,19 +70,7 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
  
 
 3. Para utilizar una pagina HTML, hay que tener en cuenta que la misma debe cumplir con una estructura que es la siguiente:
-<p align="center">
-
-<img src="estructurabasica.png" width="500" height="800">
-
-
-</p>
-
-<p align="center">
-
-<img src="http://github.com/edijav85/Tec_Web_EL/tarea18sep/master/Informe martes 18 EL/imagenes18sept/estructurabasica.png" width="200" height="200">
-</p>
-
-<div align="center"><img src="http://github.com/edijav85/Tec_Web_EL/tarea18sep/master/Informe martes 18 EL/imagenes18sept/estructurabasica.png" width="100"></div>
+<div align="center"><img src="https://fjph32html.files.wordpress.com/2015/03/estructurabasica.png" width="100"></div>
 
 
 
