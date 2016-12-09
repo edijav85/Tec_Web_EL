@@ -79,7 +79,7 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
 
 <p align="center">
 
-<img src="https://github.com/edijav85/Tec_Web_EL/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
+<img src="https://github.com/edijav85/Tec_Web_EL/tarea18sep/master/Informe martes 18 EL/imagenes18sept/estructurabasica.png?raw=true" width="100" height="100">
 
 </p>
 
