@@ -79,9 +79,10 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
 
 <p align="center">
 
-<img src="https://github.com/edijav85/Tec_Web_EL/tarea18sep/master/Informe martes 18 EL/imagenes18sept/estructurabasica.png?raw=true" width="100" height="100">
-
+<img src="http://github.com/edijav85/Tec_Web_EL/tarea18sep/master/Informe martes 18 EL/imagenes18sept/estructurabasica.png" width="200" height="200">
 </p>
+
+<div align="center"><img src="http://github.com/edijav85/Tec_Web_EL/tarea18sep/master/Informe martes 18 EL/imagenes18sept/estructurabasica.png" width="100"></div>
 
 
 
