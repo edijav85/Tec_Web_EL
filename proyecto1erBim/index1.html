@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Basic Template</title>
+ <head>
+ 
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="shorcut icon" type="image/x-icon" class="img" href="../imagenes/favicon.ico">
+  <title>frameworks PROY1</title>
+<!--  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/base-min.css">-->
+ </head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <body>
+  <div class="contenedor">
+   <fieldset><legend>Formulario</legend>
+    <form>
+     <!---->
+     <label for="nombre">Nombre:</label>
+     <!---->
+     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
 
-    <!-- Kube CSS -->
-    <link rel="stylesheet" href="assets/css/kube.css">
+     <label for="email">Email:</label>
 
-</head>
-<body>
-    <h1>Hello, world!</h1>
+     <input type="email" id="email" name="email" placeholder="Escribe tu email">
 
-    <!-- Kube JS + jQuery are used for some functionality, but are not required for the basic setup -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="assets/js/kube.js"></script>
-</body>
+     <label for="mensaje">mensaje:</label>
+     <!---->
+     <textarea type="mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+     <input type="submit" value="Enviar">  
+    </form>
+   </fieldset> 
+  </div> 
+ </body>
 </html>
