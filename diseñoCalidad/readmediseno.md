@@ -9,9 +9,6 @@
 ###Número de Informe:03
 #INDICE DE CONTENIDOS
 ------------------------------
----
-<a name="cabecera"></a>
-## Índice de contenidos
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marcoTeorico">Marco teórico</a>
