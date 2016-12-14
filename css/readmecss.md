@@ -1,11 +1,3 @@
-# Introducción a la web
-
-### Materia : `Tecnologías Web con JavaScript`
-
-<p align="center">
-<img src="https://boluda.com/files/intoduccion-css.png" alt="Logos HTML CSS JS" title="CSS Palabras clave" />
-</p>
-
 #LABORATORIO DE TECNOLOGÍAS WEB CON JAVASCRIPT
 -------------------------------------------
 ###Materia: Tecnologias Web con Java Script
@@ -38,7 +30,12 @@
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Introducción a la Web`
+El tema de la práctica es: `Introducción a la Web CSS`
+# Introducción a la web
+
+<p align="center">
+<img src="https://www.sololearn.com/Uploads/html-css.jpg" alt="Logos HTML CSS JS" title="CSS Palabras clave" />
+</p>
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -217,7 +214,7 @@ Las transformaciones CSS3 permiten trasladar, rotar, escalar, y desvanecer eleme
 
 - Gracias al Inspector de nuestro navegador web podemos ver el orden en el cual los archivos que conforman nuestra página son cargados, y como cuando dos estilos se solapan se escoge el último en agregarse.
 
-
+s
  
  
  
