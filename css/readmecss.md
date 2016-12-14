@@ -55,7 +55,7 @@ El tema de la práctica es: `Introducción a la Web`
 
  Hojas de Estilo en Cascada (Cascading Style Sheets) es el lenguaje utilizado para describir la presentación de documentos HTML o XML, esto incluye varios lenguajes basados en XML.
 
-(Fuente: [MDN](https://developer.mozilla.org/es/docs/Web/CSS))
+(Fuente: [MDN](https://mateomarinh.files.wordpress.com/2013/04/images.jpg)
 
 CSS es un lenguaje que describe el estilo de un documento HTML.
 Describe como los elementos de HTML deben ser mostrados.
@@ -193,70 +193,39 @@ Las transformaciones CSS3 permiten trasladar, rotar, escalar, y desvanecer eleme
 ### Modificar estilos en html
 
 - Se puede agregar estilos en la cabecera de nuestro documento HTML, especificando los elementos html a los cuales aplicaremos dichos estilos.
-  <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/estilosCode.jpg?raw=true" alt="Estilos HTML" title="Código de estilos en HTML"/>
-  </p>
-   
-   <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/estilos.jpg?raw=true" alt="Estilos HTML" title="Estilos en HTML"/>
-  </p>
-  
+ 
+
 - Se pueden asignar estilos en forma de clases, de manera que se pueda asignar esatas claes a diferentes elementos.
 
-<p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/clasescode.jpg?raw=true" alt="Estilos en clases" title="Código de estilos en clases"/>
-  </p>
+
    
-   <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/clases.jpg?raw=true" alt="Estilos en clases" title="Estilos en clases"/>
-  </p>
+  
   
 - Estilos en tags.
 
-<p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/xtag.png?raw=true" alt="Estilos en tags" title="Código de estilos en tags"/>
-  </p>
+
    
 - Estilo por ID
-   <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/xid.png?raw=true" alt="Estilos por ID" title="Estilos por ID"/>
-  </p>
+
   
 - Se puede crear un archivo `.css` para definir los diferentes estilos, y se los puede enlazar con nuestro documento HTML.
-   <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/archivocss.png?raw=true" alt="Stylesheet" title="Stylesheet"/>
-  </p>
+
   
-  <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/stylesheet.png?raw=true" alt="Varios archivos CSS" title="Varios archivos CSS"/>
-  </p>
+
   
-  <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/variosCss.png?raw=true" alt="Varios archivos CSS" title="Varios archivos CSS"/>
-  </p>
+ 
 
 - Gracias al Inspector de nuestro navegador web podemos ver el orden en el cual los archivos que conforman nuestra página son cargados, y como cuando dos estilos se solapan se escoge el último en agregarse.
 
-<p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/ordenCss.png?raw=true" alt="Orden carga de stylesheets" title="Orden carga de stylesheets"/>
-  </p>
-  
-  <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/anulacionCss.png?raw=true" alt="Orden carga de stylesheets sobre otros" title="Orden carga de stylesheets"/>
-  </p>
+
+ 
  
  
 ### Un sitio Responsivo
 
 - Es importante recordar que el porcentaje CSS del Grid son 12 columnas de fluido.
 
-<p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/12.jpg?raw=true" alt="Còdigo rows 12" title="Còdigo rows 12"/>
-  </p>
-  
-  <p align="center">
-  <img src="https://github.com/Dario95/Tec_Web_Js2016_B/blob/02-Css/Informe/Gr%C3%A1ficos/recursividad.jpg?raw=true" alt="Responsivo" title="Responsivo"/>
-  </p>
+
 
   
 <a name="conclusionesYRecomendaciones"></a>
