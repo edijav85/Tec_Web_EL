@@ -16,10 +16,9 @@ sdfgsdfgsdfg
  * <a href="#github">Github</a>
  * <a href="#brak">Brackets</a>
  * <a href="#w3c">W3Schools</a>
- * <a href="#metodos">Métodos HTTP</a>
- * <a href="#status">Status Code HTTP</a>
- * <a href="#navegador">Navegador</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
+ <a href="#versionHtml">Versiones de HTML</a>
+ <a href="#tagHtml">Etiquetas de HTML</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
@@ -74,90 +73,58 @@ Es un popular sitio web para el aprendizaje de tecnologías web en línea. El co
 "></div>
 
 
+4. <a name="versionHtml"></a>
+### Versiones de HTML
 
-4. Para el siguiente paso trataremos de realizar algunos metodos para conocer el lenguaje HTML el cual nos permite, a travez, de un archivo que se le denomina "INDEX", ver la estructura que tiene una pagina html.
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-### Imagenes desde Github **IMPORTANTE**
-
-Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
-
-- Github
-  * La url de github que es `https://github.com` 
-- Usuario
-  * La url de usuario de github que en este caso es: `/adrianeguez` 
-- Repositorio
-  * El repositorio de Github que estamos usando, en este caso es `/Tec_Web_Js_2016_B`
-- Rama o  Branch
-  * La rama de nuestro repositorio en este formato: `/blob/master`
-- El PATH
-  * La direccíon de nuesto archivo por ejemplo `/carpeta/subcarpeta/subsubcarpeta/archivo.png` en este ejemplo es `/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png` 
-- RAW
-  * Por ultimo mandamos un Query String Parameter de la con la variable `raw` y valor `true` de la siguiente manera: `?raw=true`
-  
-**Al final** nuestro url queda de la siguiente manera:
-
-#### `https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true`
-
-<p align="center">
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-</p>
-
-Por ultimo podemos centrar las imagenes de la siguiente manera:
-
-
-```
-<p align="center">
-
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-
-</p>
-```
-
-### Links dentro de github
-
-Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
-
-1. Definir un anchor name donde nosotros queramos mover cuando demos clic de la siguiente manera y formate (**NOTESE QUE ESTAN JUNTAS**):
-
-  ```
-  <a name="nombre"></a>
-  ## titulo2
-  ```
-2. Después de esto debemos de linkear mediante un texto por ejemplo en una lista de la siguiente manera (**NO ELVIDAR EL `#`**):
- 
-  ```
-  - <a href="#nombre">Dale clic aqui para ir al titulo 2</a>
-  ```
-  <a name="conrec"></a>
-
+| Versión | Año |
+|---|---|
+|HTML|1991|
+|HTML 2.0|1995|
+|HTML 3.2|1967|
+|HTML 4.01|1999|
+|XHTML|2000|
+|HTML5|2014|
+(Fuente: [W3School](http://www.w3schools.com/html/html_intro.asp))
 <br>
-<a href="#cabecera">A la cabecera</a>
+<a href="#cabecera">Ir a la cabecera</a>
+<br>
 
+<a name="tagHtml"></a>
+### Etiquetas de HTML
 
+Las etiquetas HTML son los nombres de elementos rodeados por paréntesis angulares.
 
+* Etiquetas HTML normalmente vienen en pares como `<p>` y `</p>`.
+* La primera etiqueta en un par es la etiqueta de inicio, la segunda etiqueta es la etiqueta de cierre.
+* La etiqueta final se escribe igual a la etiqueta de inicio, pero con una barra inclinada insertada antes del nombre de la etiqueta.
+* `La etiqueta de inicio también se llama la etiqueta de apertura y la etiqueta final de la etiqueta de cierre. `
+<br>
+    
+| Tags| Definición |
+| --- | --- |
+|`<!DOCTYPE>` | Define el tipo de documento |
+|`<html>` | Elemento raíz de una página HTML |
+|`<head>` | Elemento que contiene o informacion de metadatos sobre el documento | 
+|`<title>` | Elemento que especifica un título para el documento | 
+| `<body>`| Elemento que contiene el contenido de la pñágina visible |
+| `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>` | Elementos que definen el tamaño del encabezado |
+| `<p>` | Elemento que define un párrafo |
+| `<a>` | Elemento que permite definir links |
+| `<img>`| Elemento que permite definir imágenes |
+| `<br>`| Elemento vacío, sin etiqueta de apertura y define salto de línea |
+(Fuente: [W3School](http://www.w3schools.com/html/html_intro.asp))
+<br>
+<a href="#cabecera">Ir a la cabecera</a>
+<br>
 
+<a name="css"></a>
+## CSS
 
+<a name="definicionCss"></a>
+### Definición de CSS
+* CSS es un lenguaje que describe el estilo de un documento HTML.
 
-
-
-
-
-
-
-
+* CSS se describe cómo se deben mostrar los elementos HTML.
 
 
 
