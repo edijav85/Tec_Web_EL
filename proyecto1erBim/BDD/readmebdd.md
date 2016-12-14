@@ -9,10 +9,9 @@
 -------------------------------------------
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
-- <a href="#marco-teorico">Marco Teorico</a>
- * <a href="#Modelo de base de datos">Node.js </a>
- * <a href="#Script de base de datos">Github</a>
- * <a href="#">Brackets</a>
+- <a href="#marco-teorico">Modelo de la BDD</a>
+ * <a href="#modelo_bdd">Script de la BDD</a>
+ * <a href="#script_bdd">Github</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -31,111 +30,124 @@ Script y Modelo de la Base de Datos
 <a name="marco-teorico"></a>
 ## Marco Teorico
 
-###<a name="node">Node.js</a>
-<div align="center"><img src="https://code-maven.com/img/node.png" alt="Imagen" width="100"></div>
-Es un intérprete JavaScript del lado del servidor, su principal objetivo es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola máquina física.
-
-###<a name="github">Github</a>
-<div align="center"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" width="100"></div>
-Es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago.
-
-###<a name="brak">Brackets</a>
-<div align="center"><img src="http://jvalenzuela.es/wp-content/uploads/2014/08/brackets-editor-logo.jpg" width="100"></div>
-Es un editor de código abierto para el diseño y desarrollo web construido sobre tecnologías como HTML, CSS y JavaScript. El proyecto fue creado y es mantenido por Adobe , y se distribuye bajo una licencia MIT.
-
-###<a name="w3c">W3Schools</a>
-<div align="center"><img src="http://orig07.deviantart.net/3d83/f/2014/280/d/b/w3c_schools_of_web_designing_by_theosoftcochin-d81y1nd.png" width="100"></div>
-Es un popular sitio web para el aprendizaje de tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, Bootstrap y jQuery. Recibe más de 10 millones de visitantes únicos al mes.
-
-##<a name="desarrollo">Desarrollo de la Práctica</a>
-
-1. La practica empieza levantando el servidor web el cual consumira recursos de la computadora en donde estamos ejecutando el codigo en el programa BRAKETS, para esto es necesario ejecutar los siguientes comandos
- - npm install -g http-server
-   * Este comando sirve para instalar el servidor web
- - http-server -c10 
-   * Sirve para configurar la duración del Cache
-
-2. Seguido a esto se procede con la creaccion de algunos progrogramas que nos permiten el manejo de marcas para asociarse con javascript. Aqui se procede con la instalacion de la mayoria de paquetes que nos permiten tener un conocimiento basico para la programacion en JavaScript.
- 
- - El primer programa que se instala es Node.js, el cual permite que el codigo ingresado en el programa "Brakets" compile dentro del navegador.
- 
- 
- - El segundo programa es el escritorio de github en el cual nos permite realizar commits de los codigos realizados en el programa brakets.
- 
-
-3. Para utilizar una pagina HTML, hay que tener en cuenta que la misma debe cumplir con una estructura que es la siguiente:
-<div align="center"><img src="https://fjph32html.files.wordpress.com/2015/03/estructurabasica.png" width="200
-"></div>
-
-
-
-4. Para el siguiente paso trataremos de realizar algunos metodos para conocer el lenguaje HTML el cual nos permite, a travez, de un archivo que se le denomina "INDEX", ver la estructura que tiene una pagina html.
-
- 
+El proyecto que se tiene contemplado es la creacion de un sitio, el mismo que oferte zapatos para damas.
+La necesidad de crear un sitio como tal es en base a las demandas creadas por personas que tienen la tendencia de comprar calzado para cada tipo 
+de salida.
 
 
 
 
+###<a name="script_bdd">Script de la BDD</a>
+
+A continuacion se presenta el escript que se hizo correr en el programa PostgreSQL
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+drop database if exists TZAPATOS;
+create database TZAPATOS;
+
+CREATE TABLE EMPLEADOS(
+EMPLEADOID int NOT NULL,
+NOMBRE char(30) NULL,
+APELLIDO char(30) NULL,
+FECHA_NAC date NULL,
+REPORTA_A int NULL,
+EXTENSION int NULL,
+CONSTRAINT PK_EMPLEADOS PRIMARY KEY (EMPLEADOID));
+
+CREATE TABLE PROVEEDORES(
+PROVEEDORID int NOT NULL,
+NOMBREPROV char(50) NOT NULL,
+CONTACTO char(50) NOT NULL,
+CELUPROV char(12) NULL,
+FIJOPROV char(12) NULL,
+CONSTRAINT PK_PROVEEDORES PRIMARY KEY
+(PROVEEDORID ) );
+
+CREATE TABLE CATEGORIAS(
+CATEGORIAID int NOT NULL,
+NOMBRECAT char(50) NOT NULL,
+CONSTRAINT PK_CATEGORIAS PRIMARY KEY
+(CATEGORIAID) ) ;
+
+CREATE TABLE CLIENTES(
+CLIENTEID int NOT NULL,
+CEDULA_RUC char(10) NOT NULL,
+NOMBRECIA char(30) NOT NULL,
+NOMBRECONTACTO char(50) NOT NULL,
+DIRECCIONCLI char(50) NOT NULL,
+EMAIL char(50) NULL,
+CELULAR char(12) NULL,
+FIJO char(12) NULL,
+CONSTRAINT PK_CLIENTES PRIMARY KEY
+(CLIENTEID) );
+
+CREATE TABLE ORDENES(
+ORDENID int NOT NULL,
+EMPLEADOID int NOT NULL,
+CLIENTEID int NOT NULL,
+FECHAORDEN date NOT NULL,
+DESCUENTO int NULL,
+CONSTRAINT PK_ORDENES PRIMARY KEY
+(ORDENID) );
 
 
+CREATE TABLE DETALLE_ORDENES(
+ORDENID int NOT NULL,
+DETALLEID int NOT NULL,
+PRODUCTOID int NOT NULL,
+CANTIDAD int NOT NULL,
+CONSTRAINT PK_DETALLE_ORDENES PRIMARY KEY
+(ORDENID,DETALLEID ) );
+
+CREATE TABLE PRODUCTOS(
+PRODUCTOID int NOT NULL,
+PROVEEDORID int NOT NULL,
+CATEGORIAID int NOT NULL,
+DESCRIPCION char(50) NULL,
+PRECIOUNIT numeric NOT NULL,
+EXISTENCIA int NOT NULL,
+CONSTRAINT PK_PRODUCTOS PRIMARY KEY
+(PRODUCTOID )) ;
+
+ALTER TABLE ORDENES
+ADD CONSTRAINT FK_ORDENES_CLIEN_ORD_CLIENTES FOREIGN KEY(CLIENTEID)
+REFERENCES CLIENTES (CLIENTEID)
+on delete restrict on update restrict;
+
+ALTER TABLE ORDENES ADD CONSTRAINT FK_ORDENES_EMPLE_ORD_EMPLEADO FOREIGN KEY(EMPLEADOID)
+REFERENCES EMPLEADOS (EMPLEADOID)
+on delete restrict on update restrict;
+
+ALTER TABLE DETALLE_ORDENES ADD CONSTRAINT FK_DETALLE__ORDEN_DET_ORDENES FOREIGN KEY(ORDENID)
+REFERENCES ORDENES (ORDENID)
+on delete restrict on update restrict;
+
+ALTER TABLE DETALLE_ORDENES ADD CONSTRAINT FK_DETALLE__PROD_DETA_PRODUCTO FOREIGN KEY(PRODUCTOID)
+REFERENCES PRODUCTOS (PRODUCTOID)
+on delete restrict on update restrict;
+
+ALTER TABLE PRODUCTOS ADD CONSTRAINT FK_PRODUCTO_CATE_PROD_CATEGORI FOREIGN KEY(CATEGORIAID)
+REFERENCES CATEGORIAS (CATEGORIAID)
+on delete restrict on update restrict;
+
+ALTER TABLE PRODUCTOS ADD CONSTRAINT FK_PRODUCTO_PROV_PROD_PROVEEDO FOREIGN KEY(PROVEEDORID)
+REFERENCES PROVEEDORES (PROVEEDORID)
+on delete restrict on update restrict;
+
+ALTER TABLE EMPLEADOS ADD CONSTRAINT FK_EMPLEADO_REPORTA FOREIGN KEY(REPORTA_A)
+REFERENCES EMPLEADOS (EMPLEADOID)
+on delete restrict on update restrict;
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+###<a name="modelo_bdd">Modelo de la BDD</a>
 
-
-
-
-### Imagenes desde Github **IMPORTANTE**
-
-Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
-
-- Github
-  * La url de github que es `https://github.com` 
-- Usuario
-  * La url de usuario de github que en este caso es: `/adrianeguez` 
-- Repositorio
-  * El repositorio de Github que estamos usando, en este caso es `/Tec_Web_Js_2016_B`
-- Rama o  Branch
-  * La rama de nuestro repositorio en este formato: `/blob/master`
-- El PATH
-  * La direccíon de nuesto archivo por ejemplo `/carpeta/subcarpeta/subsubcarpeta/archivo.png` en este ejemplo es `/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png` 
-- RAW
-  * Por ultimo mandamos un Query String Parameter de la con la variable `raw` y valor `true` de la siguiente manera: `?raw=true`
-  
-**Al final** nuestro url queda de la siguiente manera:
-
-#### `https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true`
+El modelo de la BDD se la realizo en el programa PowerDesigner para tener una aproximacion real de las entidades que participarán en 
+el proyecto. El modelo quedo de la siguiente manera
 
 <p align="center">
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-</p>
 
-Por ultimo podemos centrar las imagenes de la siguiente manera:
-
-
-```
-<p align="center">
-
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
+<img src="https://github.com/edijav85/Tec_Web_EL/proyecto1erBim/BDD/imagenes/bdd.jpg"width="500" height="800">
 
 </p>
-```
 
-### Links dentro de github
-
-Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
-
-1. Definir un anchor name donde nosotros queramos mover cuando demos clic de la siguiente manera y formate (**NOTESE QUE ESTAN JUNTAS**):
-
-  ```
-  <a name="nombre"></a>
-  ## titulo2
-  ```
-2. Después de esto debemos de linkear mediante un texto por ejemplo en una lista de la siguiente manera (**NO ELVIDAR EL `#`**):
- 
-  ```
-  - <a href="#nombre">Dale clic aqui para ir al titulo 2</a>
-  ```
-  <a name="conrec"></a>
-
-<br>
-<a href="#cabecera">A la cabecera</a>
