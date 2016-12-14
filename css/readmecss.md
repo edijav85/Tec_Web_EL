@@ -31,7 +31,7 @@
 <a name="tema"></a>
 ## Tema
 El tema de la práctica es: `Introducción a la Web CSS`
-# Introducción a la web
+# Introducción a la web CSS
 
 <p align="center">
 <img src="https://www.sololearn.com/Uploads/html-css.jpg" alt="Logos HTML CSS JS" title="CSS Palabras clave" />
