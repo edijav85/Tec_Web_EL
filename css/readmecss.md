@@ -213,8 +213,6 @@ Las transformaciones CSS3 permiten trasladar, rotar, escalar, y desvanecer eleme
  
 
 - Gracias al Inspector de nuestro navegador web podemos ver el orden en el cual los archivos que conforman nuestra página son cargados, y como cuando dos estilos se solapan se escoge el último en agregarse.
-
-s
  
  
  
